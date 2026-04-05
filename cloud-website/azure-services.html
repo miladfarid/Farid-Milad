@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <!-- Meta-Informationen -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Titel der Seite -->
+    <title>Azure Services - Milad</title>
+
+    <!-- CSS-Datei -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ---------------------------------------------------------
+         HEADER – Banner + Navigation
+    ---------------------------------------------------------- -->
+    <header>
+
+        <!-- Bannerbild -->
+        <div class="header-banner">
+            <img src="Photos/header.png" alt="Azure">
+        </div>
+
+        <!-- Navigationsleiste -->
+        <div class="header-nav-bar">
+            <h1>📘 Microsoft Azure Services</h1>
+
+            <!-- Mobile-Menü (Checkbox-Hack) -->
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="menu-icon">☰</label>
+
+            <!-- Navigation -->
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="azure-services.html" class="active">Azure Services</a></li>
+                    <li><a href="resources.html">Ressourcen</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- ---------------------------------------------------------
+         MAIN – Hauptinhalt
+    ---------------------------------------------------------- -->
+    <main>
+
+        <!-- Abschnitt 1: Wichtige Azure-Dienste -->
+        <section>
+            <h2>📦 Wichtige Azure-Dienste</h2>
+            <p>Azure bietet über 200 verschiedene Dienste. Hier sind die wichtigsten:</p>
+
+            <!-- Bildkarte -->
+            <div class="image-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
+                     alt="Microsoft Azure Logo" style="max-width: 200px;">
+                <p><strong>Microsoft Azure</strong> – Die Cloud-Plattform von Microsoft mit Rechenzentren weltweit.</p>
+            </div>
+
+            <h3>🔥 Die 5 wichtigsten Azure-Dienste</h3>
+
+            <!-- Service-Karten -->
+            <div class="service-card">
+                <h4>1. Azure Virtual Machines (IaaS)</h4>
+                <p>Erstelle virtuelle Computer in der Cloud mit Windows oder Linux. Du hast volle Kontrolle über das Betriebssystem.</p>
+            </div>
+
+            <div class="service-card">
+                <h4>2. Azure App Service (PaaS)</h4>
+                <p>Hoste Web-Apps, APIs und mobile Backends ohne Server-Verwaltung. Unterstützt .NET, Java, Python, Node.js und mehr.</p>
+            </div>
+
+            <div class="service-card">
+                <h4>3. Azure Blob Storage</h4>
+                <p>Speichere große Mengen unstrukturierter Daten wie Bilder, Videos, Backups oder Dokumente.</p>
+            </div>
+
+            <div class="service-card">
+                <h4>4. Azure SQL Database</h4>
+                <p>Verwaltete SQL-Datenbank in der Cloud mit automatischen Backups und hoher Verfügbarkeit.</p>
+            </div>
+
+            <div class="service-card">
+                <h4>5. Azure Kubernetes Service (AKS)</h4>
+                <p>Verwalte Container mit Kubernetes – perfekt für moderne Microservices-Architekturen.</p>
+            </div>
+        </section>
+
+        <!-- Abschnitt 2: Vergleichstabelle -->
+        <section>
+            <h2>📊 Vergleich: Azure vs. andere Cloud-Anbieter</h2>
+
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Microsoft Azure</th>
+                        <th>AWS</th>
+                        <th>Google Cloud</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Marktanteil (2025)</td>
+                        <td>23%</td>
+                        <td>32%</td>
+                        <td>11%</td>
+                    </tr>
+                    <tr>
+                        <td>Rechenzentren weltweit</td>
+                        <td>60+ Regionen</td>
+                        <td>30+ Regionen</td>
+                        <td>40+ Regionen</td>
+                    </tr>
+                    <tr>
+                        <td>Beste Integration mit</td>
+                        <td>Microsoft-Produkten</td>
+                        <td>Amazon-Diensten</td>
+                        <td>Google-Diensten & AI</td>
+                    </tr>
+                    <tr>
+                        <td>Kostenloses Testguthaben</td>
+                        <td>200$ für 30 Tage</td>
+                        <td>variabel</td>
+                        <td>300$ für 90 Tage</td>
+                    </tr>
+                    <tr>
+                        <td>Stärke</td>
+                        <td>Hybrid Cloud, Enterprise</td>
+                        <td>Vielfalt der Services</td>
+                        <td>Big Data & AI</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Abschnitt 3: Zitat -->
+        <section>
+            <h2>📖 Zitat: Warum Cloud Computing wichtig ist</h2>
+
+            <blockquote class="quote">
+                "Cloud Computing ist nicht mehr die Zukunft – es ist die Gegenwart. Unternehmen, die nicht in die Cloud migrieren, werden im Wettbewerb zurückfallen."
+                <a href="http://de.wikipedia.org/wiki/Satya_Nadella" style="text-decoration: none;">Satya Nadella</a>, CEO von Microsoft.
+            </blockquote>
+        </section>
+
+    </main>
+
+    <!-- ---------------------------------------------------------
+         FOOTER
+    ---------------------------------------------------------- -->
+    <footer>
+        <p>&copy; 2025 - Milad | Cloud Computing & Microsoft Azure</p>
+    </footer>
+
+</body>
+
+</html>
